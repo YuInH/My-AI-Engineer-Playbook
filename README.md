@@ -3,9 +3,8 @@
 This repository documents my intensive journey to upgrade from an AI Intern/Fresher to a Junior AI Engineer. It contains my daily coding challenges, theoretical notes, and end-to-end engineering projects.
 
 🗂 Repository Structure (Topic-Based)
-Codes and Documents are organized into fundamental topics of AI Engineering:
 
-Mã nguồn và tài liệu được tổ chức theo các chủ đề cốt lõi của một AI Engineer:
+Codes and Documents are organized into fundamental topics of AI Engineering:
 
 /Algorithms: Storing codes for cracking Algorithms (Mainly Leetcode) in Python, divided into different types of technique (Two Pointers, Sliding Window, etc.).
 
