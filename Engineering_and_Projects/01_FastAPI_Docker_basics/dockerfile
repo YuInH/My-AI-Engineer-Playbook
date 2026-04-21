@@ -1,0 +1,17 @@
+# Step 1: Use a mini machine with Python installed
+FROM python:3.10-slim
+
+# Step 2: Access to the working directory on that machine
+WORKDIR /app
+
+# Step 3: Copy requirements.txt file to the mini machine
+COPY requirements.txt .
+
+# Step 4: Install libraries needed to run the code from requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Step 5: Copy the code files from local machine to the mini machine
+COPY main.py .
+
+# Step 6: Run the code to start the server
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
